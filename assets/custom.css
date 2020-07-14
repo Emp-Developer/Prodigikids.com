@@ -1,0 +1,88 @@
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .img_icon {
+        padding-top: 25% !important;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .img_icon {
+        padding-top: 25% !important;
+    }
+}
+
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+    .img_icon {
+        padding-top: 40% !important;
+    }
+}
+
+/* @media (min-width: 1800px) { 
+    .img_icon {
+        padding-top: 25% !important;
+    }
+} */
+
+@media (min-width: 1801px) and (max-width: 1850px) { 
+    .img_icon {
+        padding-top: 9% !important;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1800px) { 
+    .img_icon {
+        padding-top: 7% !important;
+    }
+}
+
+@media (min-width: 1051px) and (max-width: 1600px) { 
+    .img_icon {
+        padding-top: 6% !important;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 1050px) { 
+    .img_icon {
+        padding-top: 8% !important;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 670px) { 
+    .img_icon {
+        padding-top: 22% !important;
+    }
+}
+
+
+
+.rte h4 {
+    /* font-family: "Open Sans","HelveticaNeue","Helvetica Neue",sans-serif; */
+    font-family: 'co_headlinelight' !important;
+    font-size: 30px !important;
+}
+
+p {
+    font-family: "Co Text" !important;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+/* 
+.rte {
+    color: rgba(0,0,80,.8);
+}
+
+.rte>div {
+    margin-bottom: 15px;
+    color: red;
+} */

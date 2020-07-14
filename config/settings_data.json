@@ -1,0 +1,678 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_headings": "#222323",
+    "color_body_text": "#222323",
+    "color_borders": "#1c1d1d",
+    "color_button_text": "#ffffff",
+    "color_primary": "#4be0f3",
+    "color_secondary": "#258aa2",
+    "color_product_background": "#f7f7f7",
+    "color_sale_tag": "#990000",
+    "color_input": "#f6f6f6",
+    "color_newsletter": "#f6f6f6",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#b30631",
+    "color_drawer_border": "rgba(0,0,0,0)",
+    "color_drawer_button": "#14c9a6",
+    "color_drawer_button_text": "#ffffff",
+    "type_header_family": "Google_Open+Sans_400_sans",
+    "type_header_base_size": "30px",
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "Google_Open+Sans_400_sans",
+    "type_accent_transform": true,
+    "type_accent_spacing": true,
+    "type_accent_subheadings": true,
+    "type_base_family": "Google_Open+Sans_400_sans",
+    "type_base_size": "15px",
+    "type_base_italize_titles": false,
+    "cart_type": "drawer",
+    "cart_notes_enable": true,
+    "share_image": "shopify:\/\/shop_images\/fbthumb.png",
+    "social_facebook_link": "https:\/\/www.facebook.com\/prodigikids",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/prodigikids\/",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCA4cu2_g27WPBvZq4P-lJYw?&ab_channel=ProdigiKids",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/prodigiassets-05.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/newlogo-2.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Slabo 13px",
+    "checkout_accent_color": "#a9a9a9",
+    "checkout_button_color": "#3590f3",
+    "checkout_error_color": "#ff6d6d",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "collection_products_grid": "collage",
+    "customer_layout": "customer_area",
+    "favicon_enable": false,
+    "product_vendor_enable": false,
+    "social_sharing_style": "clean",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "logo": "shopify:\/\/shop_images\/newlogo-2.png",
+          "logo-inverted": "",
+          "logo_max_width": "330",
+          "search": "modal",
+          "show_announcement": false,
+          "home_page_only": false,
+          "text": "",
+          "link": "",
+          "color_bg": "#1c1d1d",
+          "color_text": "#ffffff"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "settings": {
+          "hero_home_auto": false,
+          "home_hero_auto_speed": "5000",
+          "slide_text_color": "#ffffff",
+          "slide_button_label_color": "#000000",
+          "slide_button_background_color": "#ffffff"
+        }
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_top_link_list": "main-menu",
+          "drawer_bottom_link_list": "",
+          "drawer_search_enable": false,
+          "header_info": "",
+          "header_icons": "<div class=\"footer-r3\"> <div class=\"\"> <ul class=\"no-bullets social-icons\"> <li> <a href=\"https:\/\/www.instagram.com\/prodigikids\/\" target=\"_blank\" title=\"Prodigi Kids on Instagram\"> <span class=\"icon icon-instagram\" aria-hidden=\"true\"><\/span> <\/a> <\/li> <li> <a href=\"https:\/\/www.facebook.com\/prodigikids\" target=\"_blank\" title=\"Prodigi Kids on Facebook\"> <span class=\"icon icon-facebook\" aria-hidden=\"true\"><\/span> <\/a> <\/li> <li> <a href=\"https:\/\/www.youtube.com\/channel\/UCA4cu2_g27WPBvZq4P-lJYw?&amp;ab_channel=ProdigiKids\" target=\"_blank\" title=\"Prodigi Kids on YouTube\"> <span class=\"icon icon-youtube\" aria-hidden=\"true\"><\/span> <\/a> <\/li> <\/ul> <\/div> <\/div>"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_link_list": "footer",
+          "footer_text": "<div class=\"footer-text\">\n<p><span class=\"footer-logo\">Prodigi Kids<\/span><br>\n<span><br><\/span><\/p>\n<\/div>"
+        }
+      },
+      "1516343259842": {
+        "type": "advanced-content",
+        "disabled": true,
+        "blocks": {
+          "1516343259842-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"homebaner-wrp\">\n\t<div class=\"homebaner-left-img\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/homepg-slider-img-left.png\">\n\t<\/div>\n\t<div class=\"homebaner-right-img\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/homepg-slider-img-right.png?7915\">\n\t<\/div>\n\t<div class=\"homebaner-innerwrp\">\n\t\t<h3 class=\"homebanner-innerwrp-title\">\n<span>fewer messes<\/span>more moments<\/h3>\n\t\t<div class=\"homebaner-shop-btn\">\n\t\t\t<a href=\"https:\/\/prodigikids.com\/pages\/stay-put-plate\">Shop<\/a>\n\t\t<\/div>\n\t\t<div class=\"homebaner-shop-btn2\">\n\t\t\t<a href=\"javascript:void(0)\">\n\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/homepg-sliderbtnimg.png\">\n\t\t\t<\/a>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n<div class=\"howitwork-popup\">\n\t<div class=\"howitwork-wrp clearfix\">\n\t\t<div class=\"howitwork-wrp-close\"><span class=\"icon icon-x\" aria-hidden=\"true\"><\/span><\/div>\n\t\t<div class=\"howitwork-videowrp\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/357245239\" width=\"315\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\" muted=\"1\"><\/iframe>\n\t\t<\/div>\n\t<\/div>\t\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1516343259842-0"
+        ],
+        "settings": {}
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "zoom_enable": false,
+          "social_sharing_products": true,
+          "product_vendor_enable": false,
+          "image_layout": "thumbnails",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "add_to_cart_button_size": "large"
+        }
+      },
+      "product-video": {
+        "type": "product-video",
+        "settings": {
+          "heading": "",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=6jiNS_4CEug"
+        }
+      },
+      "product-slideshow": {
+        "type": "product-slideshow",
+        "blocks": {
+          "1516345086661": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slid1.png",
+              "color_image_overlay": "#3d4246",
+              "image_overlay_opacity": 0,
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          },
+          "1516345044494": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/second-img2_a365233a-cddc-41b8-a5e3-27c0fdc68430.png",
+              "color_image_overlay": "#3d4246",
+              "image_overlay_opacity": 0,
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          },
+          "1516345111494": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slidd.png",
+              "color_image_overlay": "#3d4246",
+              "image_overlay_opacity": 0,
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1516345086661",
+          "1516345044494",
+          "1516345111494"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000",
+          "slide_text_color": "#ffffff",
+          "slide_button_label_color": "#000000",
+          "slide_button_background_color": "#ffffff"
+        }
+      },
+      "about-row": {
+        "type": "about-row",
+        "blocks": {
+          "1516430767796": {
+            "type": "select",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/aboutpg-se1img2.png",
+              "layout": "left",
+              "title": "",
+              "text": "<p>Up, up, it soared- so far and so high that it reached the man at the very next table. Spaghetti landed on his head, and his nice, white dress shirt was covered in meatballs, peas, and red sauce.<\/p>\n<p><\/p>\n<p>Uggh! <\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1516430814518": {
+            "type": "select",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/aboutpg-se1img3.png",
+              "layout": "right",
+              "title": "",
+              "text": "<p>Sophia laughed, and I cried. It was a moment where time stood still and something stirred deep within me.<\/p>\n<p><\/p>\n<p>I became determined to invent a product that straight up worked.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1516430852082": {
+            "type": "select",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/aboutpg-se1img4.png",
+              "layout": "left",
+              "title": "",
+              "text": "<p>This single stressful event forever changed my life because I discovered my unique gift as a designer. When united with my fierce passion for business, Prodigi Kids was born.&nbsp;<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1516430767796",
+          "1516430814518",
+          "1516430852082"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/aboutpg-se1img1.png",
+          "layout": "right",
+          "title": "",
+          "text": "<div class=\"aboutus-our-lovestory-img-wrp\">\n\t<div class=\"aboutus-our-heart-icon\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/about-pgOurStory-img4.png\">\n\t<\/div>\n\t<h3>Our Story<\/h3>\n<\/div>\n<p>When my daughter Sophia was 18 months old, I took her out to eat and placed small pieces of food on a placemat that supposedly “stuck” to the table.  In a split second, she grabbed it, and out of the corner of my eye, I saw food hurled into the air.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "about-topcontent": {
+        "type": "about-topcontent",
+        "settings": {
+          "html": "<div class=\"custom-text\">\n<h1>At Prodigi Kids,<br> \nwe believe that every child is<br> \ninherently wonderful and marvelous!<\/h1>\n<\/div>"
+        }
+      },
+      "about-html": {
+        "type": "about-html",
+        "settings": {
+          "html": "<div class=\"about-second-section\">\n<h1>I began a journey that laid the <br> foundation for a sustainable company<\/h1>\n<div class=\"aboutscnd-sec-content\">\n\t<div class=\"aboutscnd-sec-contentwrp\">\n\t\t<div class=\"aboutscnd-sec-contentinner\">\n\t\t\t<div class=\"aboutscnd-sec-ccol aboutscnd-sec-ccol-left\">\n\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/aboutscnd-sec-ccol-left-img.png\">\n\t\t\t<\/div>\n\t\t\t<div class=\"aboutscnd-sec-ccol aboutscnd-sec-ccol-center\">\n\t\t\t\t<div class=\"aboutscnd-sec-ccol-centerwrp\">\n\t\t\t\t\t<h3>Prod-i-gy:<\/h3>\n\t\t\t\t\t<p>Something wonderful or marvelous; a wonder...<\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"aboutscnd-sec-ccol aboutscnd-sec-ccol-right\">\n\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/aboutscnd-sec-ccol-right-img.png\">\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n<\/div>"
+        }
+      },
+      "aboutlast": {
+        "type": "aboutlast",
+        "settings": {
+          "text-box": "",
+          "html": "<div class=\"row about-third-section\">\n   <div class=\"col-md-3 col-sm-4 col-xs-4\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/abouus-lst-img.png\" alt=\"\">\n   <\/div>\n   <div class=\"col-xs-8 resp_heading_blk\">\n      <h2>\n         Karen Bravehart, Founder + CEO\n      <\/h2>\n   <\/div>\n   <div class=\"col-md-9 col-sm-8 col-xs-12\">\n      <h2 class=\"resp_heading_none\">\n         Karen Braveheart, Founder &amp; CEO\n      <\/h2>\n      <div class=\"resp_heading-content\">\n   \t  <div class=\"col-md-6 resp_heading-content-left\">\n            <div class=\"resp_heading-contentletft-wrp\">\n         \t\t<p>I’ve had successful careers in law and real estate and am a serial entrepreneur. As the Founder of Prodigi Kids, I lead my company with a vision to create a world where everyone is living a joyful life sharing their unique gifts.<\/p>\n         \t\t<p>Growing up, I had less than an idyllic childhood and learned that love is something that’s taught.  When I became a parent, I asked myself what is the biggest gift I can give to my children?  Then, it came to me:  Self worth.  Why? Because it’s the main ingredient in making dreams come true and living a happy life.<\/p>\n            <\/div>\n         <\/div>\n         <div class=\"col-md-6 resp_heading-content-right\">\n         <div class=\"resp_heading-contentright-wrp\">\n      \t\t<p>We are all born with unique gifts.  They’re what make us different from others and create happiness inside when shared.  These gifts are our passions in life.<\/p>\n      \t\t<p>As parents, we’re here to support our children and find their unique gifts.  When we raise our children with self worth, they develop the inner confidence to trust themselves and look within for happiness.<\/p>  \n      \t\t<p>Every loving moment of connection is a building block that creates the foundation for our child's self worth.<\/p>\n         <\/div>\n         <\/div>\n      <\/div>\n   <\/div>\n<\/div>\n<div class=\"row about-last-section\">\n   <h1>The Prodigi Kids Team<\/h1>\n   <div class=\"col-md-7 col-sm-4 col-xs-6 wk_team_img\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/caricature_karen_transparent.png?13920522589922515032\" alt=\"Karen\">\n      <h4>Karen Braveheart<\/h4>\n      <p>CEO &amp; Founder<\/p>\n   <\/div>\n   <div class=\"col-md-4 col-sm-4 col-xs-6 wk_team_img\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/WbWM7IAA.png?13920522589922515032\" alt=\"Mia\">\n      <h4>Mia Grable<\/h4>\n      <p>Chief Brand Officer<\/p>\n   <\/div>\n<\/div>"
+        }
+      },
+      "1520403219118": {
+        "type": "advanced-content",
+        "blocks": {
+          "1520403219118-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"hometop-section\">\n  <div class=\"wrapper\">\n    <div class=\"hometop-section-innerwrp\">\n      <div class=\"hometop-sec-r1\">\n        <div class=\"hometop-sec-r1-wrp\">\n          <h2 class=\"hometop-sec-r1-title\">A loving moment lasts a lifetime<\/h2>\n          <div class=\"hometop-sec-r1-des\">\n            <p>When a parent connects to the love inside their heart, love flows to their little one.  A baby’s brain creates a core belief of feeling worthy of love.  Only a child who believes they are worthy grows into a person who achieves their dreams.<\/p>\n            <p>Prodigi Kids’ products are a unique blend of intuition and science that work\n              together to build a foundation of self worth in children.<\/p>\n          <\/div>\n          <div class=\"hometop-sec-r1-btm-title\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-r1-btm-title-img.png\">\n          <\/div>\n        <\/div>\n      <\/div>\n      <div class=\"hometop-sec-r2 hometop-sec-row\">\n        <div class=\"hometop-sec-row\">\n          <div class=\"hometop-sec-b\">\n            <div class=\"hometop-sec-b-wrp\">\n              <div class=\"hometop-sec-b-top\">\n                <div class=\"hometop-sec-b-text\">\n                  <h4>Align<\/h4>\n                  <p>Stop. Breathe. Connect.<\/p>\n                <\/div>\n                <div class=\"hometop-sec-b-img\">\n                  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-b1.png\">\n                <\/div>\n              <\/div>\n              <div class=\"hometop-sec-b-content-part\">\n              \t<p>You can’t connect with your kid if you’re worried they’re going to send sweet potatoes flying onto your nice work shirt right before your big meeting. That’s why we spent over a year engineering a suction that makes your Adi plate stay on the table no matter what.<\/p> <p>When you have a product that really works, that’s when you are free to bond with your child. The present moment - it’s where the magic happens.<\/p>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n      <div class=\"hometop-sec-r3 hometop-sec-row\">\n        <div class=\"hometop-sec-row\">\n          <div class=\"hometop-sec-b\">\n            <div class=\"hometop-sec-b-wrp\">\n              <div class=\"hometop-sec-b-top\">\n                <div class=\"hometop-sec-b-text\">\n                  <h4>Develop<\/h4>\n                  <p>Every feature crafted to teach<br> confidence, independence, and a <br> feeling of achievement<\/p>\n                <\/div>\n                <div class=\"hometop-sec-b-img\">\n                  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-b2.png\">\n                <\/div>\n              <\/div>\n              <div class=\"hometop-sec-b-content-part\">\n                <p>Adi is the optimal tool backed with cutting edge neuroscience designed to increase your child’s brain development and build confidence. Adi’s eating sections promote independence with food choices, portion size, and placement. Its curved edges help your toddler confidently practice and master self-feeding.<\/p>\n                <p>When you buy a Prodigi Kids’ product, you know that every single element has been meticulously designed to boost your baby’s brainpower.<\/p>\n                <p class=\"hometop-sec-b-content-link hometop-sec-b-contentlink1\">See what Allison Courson, OTR\/L, pediatric neuro linguistic specialist has to say about this.<\/p>\n                <div class=\"homepg-quote homepg-quote1\">\n                  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/homepg-quote-img.png\">\n                <\/div>\n              <\/div>\n            <\/div>\n            <div class=\"hometop-sec-togglebox hometop-sec-r3-togglebox\">\n              <div class=\"hometop-sec-togglebox-icon\">\n              \t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-b3-ttgleicon.png\">\n              <\/div>\n              <div class=\"hometop-sec-togglebox-wrp\">\n                <div class=\"hometop-sec-togglebox-innerwrp\">\n                  <div class=\"hometop-sec-togglebox-content\"><p>What wires together in the brain fires together.  The science behind the polyvagal nerve is that we’re made to have social engagement brought on by positive parent \nexperiences and a baby receives this as connectivity in their brain.<\/p><\/div>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n      <div class=\"hometop-sec-r4 hometop-sec-row\">\n      \t<div class=\"hometop-sec-row\">\n          <div class=\"hometop-sec-b\">\n            <div class=\"hometop-sec-b-wrp\">\n              <div class=\"hometop-sec-b-top\">\n                <div class=\"hometop-sec-b-text\">\n                  <h4>Interact<\/h4>\n                  <p>Playtime is serious business<\/p>\n                <\/div>\n                <div class=\"hometop-sec-b-img\">\n                  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-b3.png\">\n                <\/div>\n              <\/div>\n              <div class=\"hometop-sec-b-content-part\">\n                <p>As parents we’re trained to believe that overpriced educational toys are what make our kids learn and grow into healthy adults. But the secret to a child’s development has never been knowledge- instead it’s about connecting with love. No amount of fancy gadgets is going to make your child feel loved and supported like quality time with a parent.<\/p>\n                <p>Moments of interaction are the building blocks to developing self worth in your child’s brain. Prodigi Kids exists to support authentic, loving moments between you and your child.<\/p>\n                <p class=\"hometop-sec-b-content-link hometop-sec-b-contentlink2\">See what the Center of the Developing Child at Harvard University says about your baby’s brain.<\/p>\n                <div class=\"homepg-quote homepg-quote2\">\n                  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/homepg-quote-img.png\">\n                <\/div>\n              <\/div>\n            <\/div>\n            <div class=\"hometop-sec-togglebox hometop-sec-r4-togglebox\">\n              <div class=\"hometop-sec-togglebox-icon\">\n              \t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/hometop-sec-b3-ttgleicon.png\">\n              <\/div>\n              <div class=\"hometop-sec-togglebox-wrp\">\n                <div class=\"hometop-sec-togglebox-innerwrp\">\n                  <div class=\"hometop-sec-togglebox-content\"><p>The most important influence on early brain development is the real-life serve and return interaction with caring adults.<\/p><\/div>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n<div class=\"second-section\">\n<div class=\"test-section\">\n<h2>why parents love\n<br>\nthe Adi plate<\/h2>\n<\/div>\n\n<div class=\"col-md-12\">\n<div class=\"col-md-4\">\n<div class=\"grid-inner\">\n<p>Having my son use Adi was a truly memorable experience, and I can't wait for your next design.<\/p>\n<p>Adi provides a fun and loving eating experience not just for my son, but for me as well.<\/p>\n<p>We connect while <br>\neating - bravo!!!<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/comma_ec41fdcb-8ee6-4a8c-82df-dac1a3abe760.png?10078259314204949036\" alt=\"comma\"> <div class=\"sep\"><\/div>\n<h4>Nancy B - Mom of 1<\/h4>\n<\/div>\n<\/div>\n<div class=\"col-md-4\">\n<div class=\"grid-inner\">\n<p>As a mom of 4 little boys, there is nothing better than finding that magical elusive product I can count on to improve our lives.<\/p>\n<p>I love that the suction really sticks so the plate stays put and allows me to spend more time with my boys and less time cleaning an entire plate of food off the floor. The Adi plate sticks, and I'm sticking with the Adi plate.<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/comma_ec41fdcb-8ee6-4a8c-82df-dac1a3abe760.png?10078259314204949036\" alt=\"comma\">\n<div class=\"sep\"><\/div>\n<h4>\nJenny G - Mom of 4<\/h4>\n<\/div>\n<\/div>\n<div class=\"col-md-4\">\n<div class=\"grid-inner\">\n<p>I am really impressed with the design of the Adi plate. The suction cup seems like it can attach to just about anything.<\/p>\n<p>It even managed to pick up a piece of paper off my table and hang on to it!<\/p>\n<p>I'm attached to Adi!<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/comma_ec41fdcb-8ee6-4a8c-82df-dac1a3abe760.png?10078259314204949036\" alt=\"comma\">\n<div class=\"sep\"><\/div>\n<h4>\nBob G - Father of 4<\/h4>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1520403219118-0"
+        ],
+        "settings": {}
+      },
+      "1520407108837": {
+        "type": "advanced-content",
+        "blocks": {
+          "1520407108837-0": {
+            "type": "html",
+            "settings": {
+              "code": "<h1 class=\"view-button\"><a href=\"\/pages\/stay-put-plate\" class=\"banner-button\">view products<\/a><\/h1>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1520407108837-0"
+        ],
+        "settings": {}
+      },
+      "1520407162512": {
+        "type": "advanced-content",
+        "blocks": {
+          "1520407162512-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"bottom-section\">\n<h5> as seen on<\/h5>\n  <div class=\"as_seen_on\">\n    <div class=\"col-sm-4 col-xs-12\">\n      <a href=\"http:\/\/sdvoyager.com\/interview\/conversations-inspiring-karen-braveheart\/\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/as-seen-on-img1.png\"><\/a>\n    <\/div>\n    <div class=\"col-sm-4 col-xs-12\">\n      <a href=\"https:\/\/www.entrepreneur.com\/article\/237816\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/as-seen-on-img2.png\"><\/a>\n    <\/div>\n    <div class=\"col-sm-4 col-xs-12\">\n      <a href=\"https:\/\/coolmompicks.com\/blog\/2014\/10\/05\/adi-stay-put-plate-for-toddlers\/\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2786\/3964\/files\/Babyology-newimg.png\"><\/a>\n    <\/div>\n  <\/div>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1520407162512-0"
+        ],
+        "settings": {}
+      },
+      "product-stayputplate-template": {
+        "type": "product-stayputplate-template",
+        "settings": {
+          "zoom_enable": false,
+          "social_sharing_products": true,
+          "product_vendor_enable": false,
+          "image_layout": "stacked",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "add_to_cart_button_size": "small"
+        }
+      },
+      "1532540463611": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "InstaFUN for two!",
+          "subheading": "Free, interactive cards for making moments with your little one"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "InstaFUN For Two!",
+          "subheading": "Free, interactive cards for making moments with your little one"
+        }
+      },
+      "1571381255958": {
+        "type": "slider-section",
+        "settings": {}
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_products_grid": "grid",
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "product_vendor_enable": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1571381255958",
+      "1516343259842",
+      "1520403219118",
+      "1520407108837",
+      "1520407162512",
+      "1532540463611"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "checkout_accent_color": "#a26b25",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#000000",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#222323",
+      "color_borders": "#1c1d1d",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#1c1d1d",
+      "color_drawer_border": "#343535",
+      "color_drawer_button": "#a26b25",
+      "color_drawer_button_text": "#ffffff",
+      "color_drawer_text": "#ffffff",
+      "color_headings": "#222323",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#f6f6f6",
+      "color_primary": "#1c1d1d",
+      "color_product_background": "#f7f7f7",
+      "color_sale_tag": "#990000",
+      "color_secondary": "#a26b25",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_sharing_style": "clean",
+      "type_accent_family": "Google_Montserrat_400_sans",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_accent_subheadings": true,
+      "type_base_family": "Google_Arapey_400_serif",
+      "type_base_italize_titles": true,
+      "type_base_size": "16px",
+      "type_header_base_size": "30px",
+      "type_header_border_thickness": "1px",
+      "type_header_family": "Google_Old+Standard+TT_400_serif",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true,
+            "color_bg": "#1c1d1d",
+            "color_text": "#ffffff"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-content",
+        "featured-collections",
+        "featured-products",
+        "newsletter"
+      ]
+    },
+    "Playful": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#565656",
+      "color_borders": "#5dd2b4",
+      "color_button_text": "#003b34",
+      "color_primary": "#5dd2b4",
+      "color_secondary": "#058677",
+      "color_product_background": "#fff4f6",
+      "color_sale_tag": "#e80970",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#bde9f2",
+      "color_drawer_background": "#360f5f",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#50297a",
+      "color_drawer_button": "#5dd2b4",
+      "color_drawer_button_text": "#360f5f",
+      "color_headings": "#321863",
+      "type_header_family": "Google_Quicksand_700_sans",
+      "type_header_base_size": "38px",
+      "type_header_border_thickness": "1px",
+      "type_accent_family": "Google_Roboto_700_sans",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "type_accent_subheadings": false,
+      "type_base_family": "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "type_base_size": "17px",
+      "type_base_italize_titles": false,
+      "cart_type": "drawer",
+      "cart_notes_enable": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_google_plus_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fff4f6",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Roboto",
+      "checkout_accent_color": "#0d8d7e",
+      "checkout_button_color": "#5dd2b4",
+      "checkout_error_color": "#f01130",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "social_sharing_style": "clean",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1495823280244": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1495823280244"
+          ],
+          "settings": {
+            "hero_home_auto": false,
+            "home_hero_auto_speed": "5000"
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "collection_products_grid": "collage"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "drawer-menu": {
+          "type": "drawer-menu",
+          "settings": {
+            "drawer_top_link_list": "main-menu",
+            "drawer_bottom_link_list": "footer",
+            "drawer_search_enable": false
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "logo_max_width": "260",
+            "search": "modal",
+            "show_announcement": false,
+            "color_bg": "#290c49",
+            "color_text": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_products_grid": "grid",
+            "collection_tags_enable": false,
+            "product_vendor_enable": false
+          }
+        },
+        "1494860348200": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "1494894035034": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "zoom_enable": false,
+            "social_sharing_products": true,
+            "product_vendor_enable": false
+          }
+        },
+        "1496078102297": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496078102297-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496078102297-0"
+          ],
+          "settings": {}
+        },
+        "1496177901425": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496177901425-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496177901425-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1496177901425",
+        "featured-products",
+        "newsletter",
+        "1496078102297",
+        "1494860348200",
+        "1494894035034"
+      ]
+    }
+  }
+}

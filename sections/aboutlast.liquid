@@ -1,0 +1,27 @@
+<div class="">
+  {% if section.settings.text-box != blank %}
+    {{section.settings.text-box}}
+  <br>
+  {%endif%}
+  {{section.settings.html}}
+  
+  
+</div>
+{% schema %}
+  {
+    "name": "About Last",
+    "settings": [
+	{
+        "type": "text",
+        "id": "text-box",
+        "label": "Title"
+      },
+      {
+        "type": "html",
+        "id": "html",
+        "label": "Please Enter text here"
+      }
+     ]
+  }
+
+{% endschema %}

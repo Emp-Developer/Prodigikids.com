@@ -1,0 +1,13 @@
+$PKBlue: #3590f3;
+$PKRed: #db2955;
+$PKYellow: #ffd802;
+
+.article_link {
+  a {
+    color:$PKBlue;
+    &:hover {
+    	color:$PKYellow;
+    }
+  }
+}
+

@@ -1,0 +1,280 @@
+<div id="container">
+<div itemscope itemtype="http://schema.org/Product" class="custom-pro" id="ProductSection--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product-template" data-image-zoom-type="{{ section.settings.zoom_enable }}" data-enable-history-state="true" data-scroll-to-image="{% if section.settings.image_layout == "stacked" %}true{% else %}false{% endif %}">
+{% assign current_variant = product.selected_or_first_available_variant %}
+{% assign featured_image = product.images.first | default: product.featured_image %}
+<div class="section section-1">
+	<div class="stay_put_plate_video">
+		<img src="//cdn.shopify.com/s/files/1/2786/3964/files/baby_video.jpg?v=1522301689%22" alt="" />
+	</div>
+</div>
+
+<div class="section section-2">
+	<div class="stay_put_plate_content">
+		<div class="stay_put_plate_content_container">
+			<div class="stay_put_plate_content_box stay_put_plate_content_box1">
+              
+              <div itemscope itemtype="http://schema.org/Product" class="custom-pro" id="ProductSection--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product-template" data-image-zoom-type="{{ section.settings.zoom_enable }}" data-enable-history-state="true" data-scroll-to-image="{% if section.settings.image_layout == "stacked" %}true{% else %}false{% endif %}">
+
+                <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+                <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+				<div class="stay_put_plate_content_box1_left">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+						
+                      
+                      <!----------- Display image and variant image code -------->
+                      {% for variant in product.variants %}
+                      {% if variant.available %}
+                      <img style="display:none" class="wkvar_images" data-variant-id="{{ variant.id}}" src="{{ variant.image.src | img_url: "master"}}">
+                      
+                      {% endif %} 	
+                      {% endfor %}
+                      
+                      <img class="wkdefault_images" src="{{ featured_image | img_url: 'master' }}">
+                      
+                      <!---------- End variation image code ---------------->
+                      
+						<div class="price_hover">
+                         
+                          <p id="ProductPrice" class="product-single__price"
+              itemprop="price"
+              content="{{ current_variant.price | divided_by: 100.00 }}">{{ current_variant.price | money }}</p>
+						</div>
+					</div>
+				</div>
+				<div class="stay_put_plate_content_box1_right">
+				<div>
+					<h1>Adi <span>{{ product.title }}</span></h1>
+					
+                  
+                  	<meta itemprop="priceCurrency" content="{{ shop.currency }}">
+					<link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+					<form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm--{{ section.id }}" class="product-single__form">
+					{% unless product.has_only_default_variant %}
+					{% for option in product.options_with_values %}
+					  <div class="radio-wrapper js product-form__item">
+						<label class="single-option-radio__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}"
+						  for="ProductSelect-option-{{ forloop.index0 }}">
+						  {{ option.name }}
+						</label>
+						{% if section.settings.product_selector == 'radio' %}
+						  <fieldset class="single-option-radio color_delection"
+							name="{{ option.name }}"
+							id="ProductSelect-option-{{ forloop.index0 }}">
+							{% assign option_index = forloop.index %}
+							{% for value in option.values %}
+							  {% assign variant_label_state = true %}
+							  {% if product.options.size == 1 %}
+								{% unless product.variants[forloop.index0].available  %}
+								  {% assign variant_label_state = false %}
+								{% endunless %}
+							  {% endif %}
+                            
+							  <input type="radio"
+								{% if option.selected_value == value %} checked="checked"{% endif %}
+								{% unless variant_label_state %} disabled="disabled"{% endunless %}
+								value="{{ value | escape }}"
+								data-index="option{{ option_index }}"
+								name="{{ option.name }}"
+								class="single-option-selector__radio{% unless variant_label_state %} disabled{% endunless %} color_options"
+								id="ProductSelect-option-{{ option.name }}-{{ value | escape }}">
+							  <label class="{{ option.name }}-{{ value }}" for="ProductSelect-option-{{ option.name }}-{{ value | escape }}"{% unless variant_label_state %} class="disabled"{% endunless %}></label>
+							{% endfor %}
+						  </fieldset>
+						{% else %}
+						  <select class="single-option-selector__radio single-option-selector-{{ section.id }} product-form__input" id="SingleOptionSelector-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+							{% for value in option.values %}
+							  <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+							{% endfor %}
+						  </select>
+						{% endif %}
+					  </div>
+					{% endfor %}
+				  {% endunless %}
+
+					  <select name="id" id="ProductSelect" class="product-single__variants no-js">
+						{% for variant in product.variants %}
+						  {% if variant.available %}
+							<option {% if variant == product.selected_or_first_available_variant %}
+							  selected="selected" {% endif %}
+							  data-sku="{{ variant.sku }}"
+							  value="{{ variant.id }}">
+							  {{ variant.title }} - {{ variant.price | money_with_currency }}
+							</option>
+						  {% else %}
+							<option disabled="disabled">
+							  {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+							</option>
+						  {% endif %}
+						{% endfor %}
+					  </select>
+
+                       {% if section.settings.quantity_enabled %}
+                        <div class="quatily_delection">
+                          <label>{{ 'products.product.quantity' | t }}</label>
+                          <input type="number" hidden="hidden" id="Quantity" name="quantity" value="1" min="1" class="js-quantity-selector">
+                        </div>
+                        {% endif %}
+
+					  <div class="product-single__add-to-cart order_product_btn">
+						<button type="submit" name="add" id="AddToCart--{{ section.id }}" class="btn add-to-cart order_product_btn{% if section.settings.add_to_cart_button_size == 'large' %} add-to-cart--full-width{% endif %}"{% unless current_variant.available %} disabled="disabled"{% endunless %}>
+						  <span class="add-to-cart-text">
+							{% if current_variant.available %}
+							  Order Adi
+							{% else %}
+							  {{ 'products.product.sold_out' | t }}
+							{% endif %}
+						  </span>
+						</button>
+					  </div>
+					</form>
+                  
+
+
+				{% if product.description != blank %}
+				<div class="maingenericAccordion">
+					 {{ product.description }}	
+				</div>
+                {% endif %}
+                  <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+				</div>
+				</div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section section-3">
+	<div class="stay_put_plate_content">
+		<div class="stay_put_plate_content_container">
+			<div class="stay_put_plate_content_box stay_put_plate_content_box2">
+				<div>
+					<img class="stay_desktop" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate2.png?v=1522308692" alt="" /> 
+					<img class="stay_mobile" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate2_mob.png?11024538078724525743" alt="" /> 
+					<img class="stay_tablet" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate2_tab.png?11024538078724525743" alt="" />
+					<div class="stay_put_plate_content_box2_hover">
+						<div class="grid-inner">
+							<p>“Adi is for ALL children. It is designed to promote face-to-face contact of an adult to a child for the early emotional bond.”</p>
+							<img src="https://cdn.shopify.com/s/files/1/2786/3964/files/comma_ec41fdcb-8ee6-4a8c-82df-dac1a3abe760.png?10078259314204949036" alt="comma" />
+							<div class="sep"></div>
+							<h4>Alison Courson, OTR/L, Early Intervention Pediatric Occupational Therapist.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section section-4">
+	<div class="stay_put_plate_content">
+		<div class="stay_put_plate_content_container">
+			<div class="stay_put_plate_content_box stay_put_plate_content_box3">
+			<img class="stay_desktop" src="https://cdn.shopify.com/s/files/1/2786/3964/files/bapy_plate_3.png?v=1522308367" alt="" /> 
+			<img class="stay_mobile" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate3_mob.png?11024538078724525743" alt="" /> 
+			<img class="stay_tablet" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/bapy_plate_3_tab.png?11024538078724525743" alt="" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section section-5">
+	<div class="stay_put_plate_content_box stay_put_plate_content_box4">
+		<div class="stay_put_plate_content">
+			<div class="stay_put_plate_content_container">
+				<img class="stay_desktop" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate4.png?v=1522308528" alt="" /> 
+				<img class="stay_mobile" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate4_mob.png?11024538078724525743" alt="" /> 
+				<img class="stay_tablet" style="display: none;" src="https://cdn.shopify.com/s/files/1/2786/3964/files/baby_plate4_tab.png?11024538078724525743" alt="" />
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+{% unless product.empty == empty %}
+  <script type="application/json" id="ProductJson-{{ section.id }}">
+    {{ product | json }}
+  </script>
+{% endunless %}
+
+{% schema %}
+  {
+    "name": "Product pages",
+	"class": "section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "zoom_enable",
+        "label": "Enable image zoom"
+      },
+      {
+        "type": "checkbox",
+        "id": "social_sharing_products",
+        "label": "Enable product sharing",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "product_vendor_enable",
+        "label": "Show product vendor"
+      },
+      {
+        "type": "select",
+        "id": "image_layout",
+        "label": "Image display",
+        "default": "stacked",
+        "options": [
+          {
+            "value": "stacked",
+            "label": "Stacked"
+          },
+          {
+            "value": "thumbnails",
+            "label": "Thumbnails"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Product options form"
+      },
+      {
+        "type": "checkbox",
+        "id": "quantity_enabled",
+        "label": "Show quantity picker"
+      },
+      {
+        "type": "select",
+        "id": "product_selector",
+        "label": "Picker type",
+        "options": [
+          {
+            "value": "radio",
+            "label": "Button"
+          },
+          {
+            "value": "select",
+            "label": "Dropdown"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Add to cart button"
+      },
+      {
+        "type": "select",
+        "id": "add_to_cart_button_size",
+        "label": "Button size",
+        "default": "small",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

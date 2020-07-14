@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: 'CoHeadline-Bold';
+  src: url('CoHeadline-Bold.eot?#iefix') format('embedded-opentype'),  url('CoHeadline-Bold.woff') format('woff'), url('CoHeadline-Bold.ttf')  format('truetype'), url('CoHeadline-Bold.svg#CoHeadline-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'co_headlinelight';
+    src: url('coheadline_lt-webfont.woff2') format('woff2'),
+         url('coheadline_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CoText-Regular';
+  src: url('CoText-Regular.eot?#iefix') format('embedded-opentype'),  url('CoText-Regular.woff') format('woff'), url('CoText-Regular.ttf')  format('truetype'), url('CoText-Regular.svg#CoText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'co_textregular';
+    src: url('cotext_rg-webfont.woff2') format('woff2'),
+         url('cotext_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'co_textlight';
+    src: url('cotext_lt-webfont.woff2') format('woff2'),
+         url('cotext_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'co_textbold';
+    src: url('cotext_bd-webfont.woff2') format('woff2'),
+         url('cotext_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'CoHeadline-Regular';
+  src: url('CoHeadline-Regular.eot?#iefix') format('embedded-opentype'),  url('CoHeadline-Regular.woff') format('woff'), url('CoHeadline-Regular.ttf')  format('truetype'), url('CoHeadline-Regular.svg#CoHeadline-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LaoMN';
+  src: url('LaoMN.eot?#iefix') format('embedded-opentype'),  url('LaoMN.woff') format('woff'), url('LaoMN.ttf')  format('truetype'), url('LaoMN.svg#LaoMN') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
